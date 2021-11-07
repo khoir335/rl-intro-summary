@@ -1,0 +1,40 @@
+Ot = observation
+
+agent state =/= environtment state
+
+partially observaable MDP
+
+agent must consturct :
+- complete history
+- beliefs of environtment state
+- recurrent neural network
+
+RL :
+-rules tidak diketahui
+-learn dari proses yang dilakukan
+-memilih aksi dalam opsi, lihat score.
+
+RL komponen :
+-policy : agent's behavior function
+-value function : how good is each state and/or action
+-model : agent's representation of the environtment
+
+policy :
+stochastic policy
+
+representsi policy for each state s
+
+value funct. is predict future reward
+
+RL Agent Taxonomy :
+Value funct.
+Policy
+Model
+
+
+
+    Model-based : Mengandalkan model lingkungan; baik model diketahui atau algoritma mempelajarinya secara eksplisit.
+    Model-free : Tidak ada ketergantungan pada model selama pembelajaran.
+    On-policy : Gunakan hasil deterministik atau sampel dari kebijakan target untuk melatih algoritme.
+    Off-policy : Pelatihan tentang distribusi transisi atau episode yang dihasilkan oleh kebijakan perilaku yang berbeda daripada yang dihasilkan oleh kebijakan target.
+
